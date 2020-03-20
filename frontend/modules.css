@@ -1,0 +1,50 @@
+body {
+    background-color:black;
+  }
+
+a {
+    color:black;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cafe {
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.community {
+    margin-left: 60%;
+    margin-top: -5.5%;
+}
+
+.merchants {
+    margin-left: 15%;
+    margin-top: 8%;
+}
+
+.financial {
+    margin-left: 60%;
+    margin-top: -5.5%;
+}
+
+.underlineHover:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    content: "";
+    transition: width 0.2s;
+  }
+  
+  .underlineHover:hover {
+    color: #0d0d0d;
+  }
+  
+  .underlineHover:hover:after{
+    width: 100%;
+  }

@@ -1,0 +1,28 @@
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    background-color: black;
+  }
+
+.card {
+    background-color: black;
+    display: inline;
+
+}
+
+h5 {
+    color: white;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+}
+
+a {
+    background-color: white;
+}
+
+.button {
+    background-color: black;
+}
